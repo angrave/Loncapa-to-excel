@@ -1,11 +1,11 @@
 ## Overview
 
-This project converts a Loncapa server data into anonymized csv data, that can then open by Excel or used as starting point for further processing.
+This project converts a Loncapa server data into anonymized csv data, that can then opened by Excel or used as starting point for further processing.
 
 ## Requirements
 
 Uses Python 3 and Pandas
-The optional .db extractor component requires a C99 gnu compiler and binary library gdm to read .db files.
+The optional .db extractor component requires a C99 gnu compiler and an early version of the gdm link library to read the .db files (v.1.8 gdb); more recent versions of gdm may not recognize the earlier file format.
 
 ## Optional preprocessing step (required for older versions of Loncapa server data)
 
