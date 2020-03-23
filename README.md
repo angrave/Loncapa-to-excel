@@ -5,10 +5,13 @@ This project converts a Loncapa server data into anonymized csv data
 ## Requirements
 
 Uses Python 3 and Pandas
+The optional .db extractor component requires a C99 gnu compiler and binary library gdm to read .db files.
 
-## Optional preprocessing step (required for older versions of Loncapa)
+## Optional preprocessing step (required for older versions of Loncapa server data)
 
-The utility "dbreader.c" (also by Angrave in the same repository) can be used to first extract key-value pairs from the deprecated .db binary format.
+Loncapa supports several storage mechanisms. Our server used .db files
+
+The utility "dbreader.c" (also by Angrave in the same repository) can be used to first extract key-value pairs from the obtuse .db binary format. To be precise they are the early v.1.8 gdb format and not the common 1.10 format; and modern versions of the gnu gdm library would not recognize them.
 
 ## License
 
