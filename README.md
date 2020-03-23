@@ -6,6 +6,10 @@ This project converts a Loncapa server data into anonymized csv data
 
 Uses Python 3 and Pandas
 
+## Optional preprocessing step (required for older versions of Loncapa)
+
+The utility "dbreader.c" (also by Angrave in the same repository) can be used to first extract key-value pairs from the deprecated .db binary format.
+
 ## License
 
 Loncapa to Excel
