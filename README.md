@@ -1,6 +1,6 @@
 ## Overview
 
-This project converts a Loncapa server data into anonymized csv data
+This project converts a Loncapa server data into anonymized csv data, that can then open by Excel or used as starting point for further processing.
 
 ## Requirements
 
