@@ -1,6 +1,6 @@
 ## Overview
 
-This project converts a Loncapa server data into csv data ll set of Excel files.
+This project converts a Loncapa server data into anonymized csv data
 
 ## Requirements
 
