@@ -29,7 +29,6 @@
 # Loncapa-to-excelL (https://github.com/angrave/Loncapa-to-excel) by Lawrence Angrave.
 # Loncapa-to-excel is an iLearn project, supported by an Institute of Education Sciences Award R305A180211
 
-cat LoncapaActivityLogParser.py 
 import hashlib
 import urllib
 import re
@@ -283,5 +282,3 @@ def main():
     print("Finished")
 
 if __name__== "__main__": main()
-(base) angrave@la-stat01:/data/p
-# 
